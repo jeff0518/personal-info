@@ -5,7 +5,7 @@ import { Mail, User } from "lucide-react";
 export default function Home() {
   return (
     <>
-      <Button className="" onClick={() => {}}>
+      <Button type="button" variant="icon">
         click
       </Button>
       <Input type="text" id="name" placeholder="Name" icon={User} />

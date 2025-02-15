@@ -1,5 +1,6 @@
 export interface ButtonProps {
   children: React.ReactNode;
-  className: string;
-  onClick: () => void;
+  variant: "icon" | "text" | "primary";
+  type: "button" | "submit";
+  onClick?: () => void;
 }

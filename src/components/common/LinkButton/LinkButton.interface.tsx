@@ -1,8 +1,8 @@
 import { ReactNode } from "react";
 import { ButtonVariant } from "@/components/types";
-export interface ButtonProps {
+
+export interface LinkButtonProps {
+  href: string;
   children: ReactNode;
   variant: ButtonVariant;
-  type: "button" | "submit";
-  onClick?: () => void;
 }
